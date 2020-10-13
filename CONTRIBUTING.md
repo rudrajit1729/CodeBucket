@@ -42,4 +42,11 @@ Website - <https://hacktoberfest.digitalocean.com/>
 
     - [Push your first code](https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
 
+5. ### Join Discord Server
+   
+   [Click Here To Join](https://discord.gg/HedjRMV) the discord server for interacting with reviewers and maintainers to know more about Contributing Guidelines and for help regarding this repo and open source in general.
+   
+   The Discord Server helps you interact with fellow developers and makes you a part of the community. Be sure to Join. 
+
+
 And, that's it!
