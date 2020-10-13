@@ -42,6 +42,8 @@ Contributing to open-source is easy.
 - Add new scripts/ideas(if you have any)
 - Push your work and Create a Pull Request
 
+[Click Here To Join](https://discord.gg/HedjRMV) the discord server for interacting with reviewers and maintainers to know more about Contributing Guidelines and for help regarding this repo and open source in general. The Discord Server helps you interact with fellow developers and makes you a part of the community. Be sure to Join. 
+
 [Click here for detailed explanation](/CONTRIBUTING.md)
   
 
