@@ -1,6 +1,6 @@
 Hacktoberfest® is open to everyone in our global community. Whether you’re a developer or a student learning to code.
 
-Enter your email on their webiste to register.
+Enter your email on their website to register.
 
 Website - <https://hacktoberfest.digitalocean.com/>
 
@@ -26,6 +26,8 @@ Website - <https://hacktoberfest.digitalocean.com/>
 
 3. ### Upload your Code or Change
 
+    Please make sure you are assigned to the issue before making any changes related to the issue. 
+    
     Make what change you want to make in Repo. You can add/update codes or fix bugs/documentation in existing buckets or create new buckets.
 
     It is a beginner friendly repository but please keep in mind not to spam with unnecessary edits.
