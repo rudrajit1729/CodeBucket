@@ -1,5 +1,5 @@
 # CodeBucket
-A beginner-friendly project to help you in open-source contributions. Made specifically for contributions in HACKTOBERFEST 2020! Please leave a star ⭐ to support this project! ✨
+A beginner-friendly project to help you in open-source contributions. Made specifically for contributions in HACKTOBERFEST 2020! Please leave a star ⭐ to support this project! ✨ Join our discord server to be a part of our community. [Click Here To Join](https://discord.gg/HedjRMV).
 
 #### Your Contributions would be counted towards Hacktoberfest if it has been approved or merged or has a "hacktoberfest-accepted" label. It is not mandatory to have all 3 on a particular PR.
 ![image](https://user-images.githubusercontent.com/53433312/95441866-49929200-0978-11eb-9fcb-adf3c935adba.png)
