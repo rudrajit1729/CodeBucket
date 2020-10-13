@@ -1,0 +1,6 @@
+f=open("myfile.txt","a")
+f.write("\nGlad to meet you")
+f.close()
+f=open("myfile.txt",'r')
+print(f.read())
+f.close()

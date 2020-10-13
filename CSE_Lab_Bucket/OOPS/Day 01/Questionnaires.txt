@@ -1,0 +1,30 @@
+Questionnaires
+
+1> What is the difference between aggregation and composition?
+Answer:
+Composition and Aggregation are two variants of association.
+Aggregation implies a "has-a" relation where child class can exist independently 
+of the parent class.It is a weak variant of association.
+Composition is a strong form of association which implies a "is part-of"
+relation where the child cannot exist independent of the parent.
+
+2> Does a constructor has to be created with the creation of an object?
+Answer:
+No, a constructor need not be created at the time of object creation. In JAVA, 
+object is created through the use of new operator, and not by the constructor invocation.
+Generally, object is already created before any constructor is invoked.
+Constructor acts as a resource allocator and state initializer for an object.
+It does not create object itself, but initializes the state of the objects.
+
+3> What is default and parameterized constructor?
+Answer:
+Default Constructor – A constructor that accepts no parameters. It is implicitly defined and called if not done explicitly.
+Parameterized Constructor – A constructor which accepts a specific number of parameters to initialize data members of a class with distinct values.
+A parameterized constructor should be explicitly defined inside the class.
+
+4> Explain the three specific characteristics of an object.
+Answer :
+The three specific characteristics of an object are :
+i) State : object has various properties, which might change.
+ii) Behaviour : object can do things and can have things done on it.
+iii) Identity :  each object is a distinct entity.

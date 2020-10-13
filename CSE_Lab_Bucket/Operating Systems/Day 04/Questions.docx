@@ -1,0 +1,24 @@
+1. Write a menu driven shell script for the following options:
+  
+  (i) Merging the contents of two files into another.
+  
+  (ii) Searching a pattern from a file.
+
+If the user gives some invalid choice, it will prompt “Invalid option” message.
+
+2. Write a shell script that will display some desired number of lines starting from a specified line of a
+given file. User must interactively supply the file name, starting line number and number of lines to be
+displayed.
+
+3. Write a menu driven shell script for the following options:
+
+(i) Number of presently active users
+
+(ii) Displaying some desired number of lines from top of a file.
+
+(iii) Updating the access time of a given file to current time.
+
+If the user gives some invalid choice it will prompt “Invalid option” message.
+
+4. Write a shell program to count number of words, characters, white spaces and special symbols in
+a given text

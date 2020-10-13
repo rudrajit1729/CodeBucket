@@ -1,0 +1,8 @@
+1. Read a file from command line. Check whether it exists. If it does not create it. Print the
+   permissions associated with the file.
+   
+2. Perform arithmetic operations on floating point numbers.
+
+3. Print greater between 2 numbers.
+
+4. Check whether a number is odd or even.

@@ -1,0 +1,7 @@
+print("Enter 2 complex numbers:")
+a = complex(input("Enter a:"))
+b = complex(input("Enter b:"))
+print("Sum:", (a+b))
+print("Subtract:", (a-b))
+print("Multiply:", (a*b))
+print("Divide:", (a/b))

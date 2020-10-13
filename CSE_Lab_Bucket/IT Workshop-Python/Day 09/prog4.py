@@ -1,0 +1,6 @@
+f=open("myfile.txt",'w')
+f.write("Content has been overwritten\nSorry for the inconvinience...")
+f.close()
+f=open("myfile.txt","r")
+print(f.read())
+f.close()

@@ -1,0 +1,3 @@
+s=list(map(str,input("Enter string:")))
+s2=[x[0] for x in s]
+print(s2)

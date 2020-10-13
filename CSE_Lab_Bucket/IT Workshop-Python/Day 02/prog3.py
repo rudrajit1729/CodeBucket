@@ -1,0 +1,5 @@
+p = input('Principal amt:')
+i = input('Interest per year:')
+y = input('Years:')
+print("Total Interest : ", (i*y))
+print("Gross amt : ", (p + i*y))
