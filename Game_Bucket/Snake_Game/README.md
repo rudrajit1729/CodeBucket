@@ -26,5 +26,5 @@ The game will be over if the snake collides into itself.
 
 # Game Screen
 
-![](https://github.com/debargha-10/CodeBucket/blob/master/Game_Bucket/Snake_Game/Assets/Capture.JPG)
+![](https://github.com/debargha-10/CodeBucket/blob/master/Game_Bucket/Snake_Game/assets/Capture.JPG)
 
