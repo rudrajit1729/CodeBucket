@@ -12,7 +12,7 @@ Installing pygame : *pip install pygame* in your terminal.
 
 Press space to begin, and shoot.
 
-Use arrow keys or W A S D to move your ship.
+Use arrow keys or W/A/S/D to move your ship.
 
 # Rules
 
