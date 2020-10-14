@@ -10,7 +10,7 @@ Installing tkinter : Tkinter is a standard library Python that used for GUI appl
 
 
 # Game Screen
-![]()
+![](https://github.com/rudrajit1729/CodeBucket/blob/master/Game_Bucket/TicTacToe/Assets/Capture.PNG)
 
 
 
