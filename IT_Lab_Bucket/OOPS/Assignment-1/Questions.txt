@@ -1,0 +1,10 @@
+Assignment 1
+
+1. Write a program to print “Welcome to JAVA Programming”.
+2. Write a program to take two integers (using command line) and print their sum, difference,
+and product.
+3. Accept an integer from user (using command line) and check whether it is Prime or not.
+4. Write a program to read three sides of a triangle from the user (using command line) and
+calculate perimeter and area of the triangle.
+5. Accept a number (n) and a string (using command line) and display the string, n-times.
+6. Write a program that converts a Fahrenheit degree to Celsius.
