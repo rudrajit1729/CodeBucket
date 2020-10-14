@@ -4,7 +4,6 @@ import random
 import re
 import sys
 
-# Complete the solve function below.
 mc=input()
 mc=float(mc)
 tip=int(input())
