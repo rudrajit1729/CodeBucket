@@ -8,7 +8,7 @@ Make sure you have:
 - [ ] Referred the issue number in the fixes title below.
 - [ ] Joined our discord server.
 
-Fixes # (issue)
+Fixes Related Issue(s): # (issue)
 
 ## Type of change
 
