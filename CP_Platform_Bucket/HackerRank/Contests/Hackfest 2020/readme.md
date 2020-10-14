@@ -1,4 +1,4 @@
-Solutions for Hackerrank Hackfest 2020 in Python.
+Solutions for Hackerrank Hackfest 2020 in C++ and Python.
 
 https://www.hackerrank.com/contests/hackerrank-hackfest-2020/challenges
 
