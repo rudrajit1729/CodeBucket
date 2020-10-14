@@ -2,7 +2,7 @@
 
 `timescale 1ns / 1ps
 
-module exp(input a, clk, rst, output reg q, output [3:0] current);
+module Moore(input a, clk, rst, output reg q, output [3:0] current);
 reg [3:0]c,n;
 parameter zero=4'b0000, one=4'b0001, onezero=4'b0010, ozo=4'b0101, ozoo=4'b1011;
 always @(posedge clk, posedge rst) begin
