@@ -1,6 +1,9 @@
-n=int(input())
-l=[]
-a=input()
-l=a.split()
-for i in range(n-1,-1,-1):
-    print(l[i], end=" ")
+i = 4
+d = 4.0
+s = 'HackerRank '
+a=int(input())
+b=float(input())
+c=input()
+print(i+a)
+print(d+b)
+print(s+c)
