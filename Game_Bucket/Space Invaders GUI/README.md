@@ -24,4 +24,4 @@ Game ends if 5 enemy ships get past or health becomes 0.
 
 # Game Screen
 
-![](https://github.com/rudrajit1729/Space-Invaders/blob/master/assets/capture.PNG)
+![](https://github.com/rudrajit1729/CodeBucket/blob/master/Game_Bucket/Space%20Invaders%20GUI/assets/capture.PNG)
