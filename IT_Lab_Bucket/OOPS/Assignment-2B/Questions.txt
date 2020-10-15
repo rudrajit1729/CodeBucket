@@ -1,0 +1,23 @@
+Assignment 2B
+
+1. Create a class with a method. The method has to decide whether a given year is a leap year or not.
+Take input from user using Scanner class.
+
+2. Create a class with two functions-one recursive and one non recursive. Either of these functions
+should be capable of calculating the factorial of a number. Take input from user using Scanner
+class.
+
+3. Use Scanner class to show
+i) content of a whole file
+ii) only 1st line of the file.
+User will provide the name of the file.
+
+4. Create a class called Bank_Account with following data member and member function
+i) Account_Holder_Name, Account_Number, Account_Type(S for savings, C for current),
+balance
+ii) withdraw_money() and deposit_money() with proper prototype
+Take input from user using Scanner class.
+
+5. For initializing and displaying data write proper setData() and displayData() function. Create a
+Demo class and demonstrate by creating 2 objects inside main() function. Take input from user
+using Scanner class.

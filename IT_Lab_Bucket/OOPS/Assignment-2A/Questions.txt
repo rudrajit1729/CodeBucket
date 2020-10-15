@@ -1,0 +1,13 @@
+Assignment 2A
+
+1. Create a class with a method. The method has to decide whether a given year is a leap year or not.
+Take input from user using BufferedReader.
+
+2. Create a class with two functions-one recursive and one non recursive. Either of these functions
+should be capable of calculating the factorial of a number. Take input from user using
+BufferedReader.
+
+3. Use BufferedReader to show
+i) content of a whole file
+ii) only 1st line of the file.
+User will provide the name of the file.
