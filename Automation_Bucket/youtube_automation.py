@@ -26,3 +26,5 @@ search.send_keys(s)
 searchButton = driver.find_element_by_xpath('//*[@id="search-icon-legacy"]')
 searchButton.click()
 
+link = driver.find_element_by_xpath('//*[@id="img"]')
+link.click()
