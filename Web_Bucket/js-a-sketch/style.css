@@ -1,0 +1,30 @@
+.content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.draw-screen{
+	display: grid;
+	height: 480px;
+	width: 640px;
+	border-style: solid;
+}
+
+.control-buttons{
+	list-style-type: none;
+}
+
+.control-buttons li{
+	display: inline-block;
+}
+
+button
+{
+	height: 40px;
+	width: 80px;
+	margin-right: 20px;
+	font-size: 15px;
+}

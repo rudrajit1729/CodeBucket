@@ -1,0 +1,5 @@
+solve (y/n)= y
+length= 300
+height= 300
+scale= 15
+strange? (y/n)= n
