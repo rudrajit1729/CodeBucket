@@ -1,0 +1,26 @@
+<div class="page">
+<link rel="stylesheet" href="page.component.css">
+<h1 class="font">WHAT'S D WEATHER</h1>
+
+<form>
+  <label class="text" for="fname">Location:</label><br>
+  <input type="text" [(ngModel)]="location" id="fname" name="fname"><br>
+  <button class="button button1" (click)="formSubmit()">Submit</button>
+</form>
+
+<p class="status text" *ngIf='!status'>Please Enter a Location:</p>
+
+<p class="text" *ngIf='status'>Latitude: {{ latitude }}</p>
+<p class="text" *ngIf='status'>Longitude: {{ longitude }}</p>
+<p class="text" *ngIf='status'>Weather: {{ weather }}</p>
+<p class="text" *ngIf='status'>Temperature: {{ temperature }}</p>
+<p class="text" *ngIf='status'>Wind Speed: {{ windspeed }}</p>
+<p class="text" *ngIf='status'>Humidity: {{ humidity }} </p>
+<img src="{{ icon }}" *ngIf='status' alt="">
+
+<footer>
+  <p>Created By: Debargha Ghosh</p>
+  <p>Using <a href="https://openweathermap.org/current">Openweather Api</a> and <a href="https://developer.mapquest.com/">Mapquest Api.</a></p>
+</footer>
+
+</div>
