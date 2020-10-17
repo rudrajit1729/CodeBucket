@@ -1,0 +1,19 @@
+<!-- Enter your HTML code here -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Button</title>
+        <link rel="stylesheet" href=".css/button.css" type="text/css">
+    
+    </head>
+    <body>
+        <button id="btn">0</button>
+        <script>
+            var btn = document.getElementById('btn');
+            btn.onclick = function (){
+                btn.innerHTML= Number(btn.innerHTML)+1;
+            };
+        </script>
+    </body>
+</html>
