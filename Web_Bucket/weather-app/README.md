@@ -3,7 +3,7 @@ This is a simple weather app made using Angular and node.js. This makes use of O
 
 ## For Development 
 
-Download or clone the files then run 'npm install' to install the dependencies and run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Download or clone the files then run `npm install` to install the dependencies and run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 
