@@ -1,27 +1,21 @@
-# WeatherApp
+# WHAT'S D WEATHER
+This is a simple weather app made using Angular and node.js. This makes use of Openweather Api and Mapquest Api.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+## For Development 
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Download or clone the files then run 'npm install' to install the dependencies and run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Screen
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![](https://github.com/debargha-10/CodeBucket/blob/master/Web_Bucket/weather-app/images/Capture.JPG)
 
-## Running end-to-end tests
+## Demo
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+To try it out visit : https://whats-d-weather.herokuapp.com/
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
