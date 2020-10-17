@@ -8,4 +8,4 @@
 5. Click anywhere on the result screen to play again
 
 ## Game Screen
-![](https://github.com/rudrajit1729/CodeBucket/blob/master/Game_Bucket/Dots_and_Boxes/images/screenshot.jpg)
+![](https://github.com/Abhi-Chatterjee/CodeBucket/blob/master/Game_Bucket/Dots_and_Boxes/images/screenshot.jpg)
