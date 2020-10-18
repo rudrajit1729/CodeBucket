@@ -38,6 +38,6 @@ b = BitDp(V)
 b.cost_setter(move_cost)
 result = b.dfs(0, 0)  # Start from vertex 0. However, vertex 0 is not visited
 if result == 10**10:
-    print(-1)  # There is no answer that visits all the vertices
+    print(-1)         # There is no answer that visits all the vertices
 else:
-    print(result)  # 16(The shortest path that goes through all points at least once)
+    print(result)     # 16 (The shortest path that goes through all points at least once)
