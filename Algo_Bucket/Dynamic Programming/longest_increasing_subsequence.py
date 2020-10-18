@@ -9,6 +9,7 @@ class Dp:
     def __init__(self,seq:list):
         self._seq = seq
 
+    # Get the longest subsequence element
     def lis(self) -> list:
         LIS = [self._seq[0]]
         for i in range(len(self._seq)):
@@ -18,6 +19,7 @@ class Dp:
                 LIS[bisect.bisect_left(LIS, self._seq[i])] = self._seq[i]
         return self.restore(LIS)
     
+    # Restoration of longest subsequence
     def restore(self, LIS:list) -> list:
         LIS.append(10**10)
         RESTORE = deque()
@@ -25,6 +27,7 @@ class Dp:
         for i in range(len(self._seq)-1, -1, -1):
             if LIS[m] <= self._seq[i] < LIS[m+1]:
                 RESTORE.appendleft(self._seq[i])
+                # Update longest common subsequence element
                 LIS[m] = self._seq[i]
                 m -= 1
         return list(RESTORE)
