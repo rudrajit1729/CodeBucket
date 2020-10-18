@@ -17,10 +17,10 @@ class Dp:
                 LIS.append(self._seq[i])
             else:
                 LIS[bisect.bisect_left(LIS, self._seq[i])] = self._seq[i]
-        return self.restore(LIS)
+        return self.__restore(LIS)
     
     # Restoration of longest subsequence
-    def restore(self, LIS:list) -> list:
+    def __restore(self, LIS:list) -> list:
         LIS.append(10**10)
         RESTORE = deque()
         m = len(LIS)-2
