@@ -37,6 +37,7 @@ l = Dp(data)
 result = l.lis()
 print(result)  #[1, 3, 5, 6, 12]
 
+
 # lis()
 # [19]
 # [11]
