@@ -1,4 +1,4 @@
-#HTML and Bootstrap Simple Website
+#Simple Website Using HTML and Bootstrap
 
 Follow Instruction.txt file for installation of prerequisite
 
