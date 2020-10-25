@@ -1,4 +1,4 @@
-# COVID-19 Information Scraper
+# COVID-19 Information Scraper in Japan
 Python Web Scraper which extract and graph COVID-19 related information in Japan from March
 
 ### Prerequisites
