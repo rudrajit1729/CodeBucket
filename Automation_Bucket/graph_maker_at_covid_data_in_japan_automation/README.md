@@ -3,7 +3,7 @@ Python Web Scraper which extract and graph COVID-19 related information in Japan
 
 ### Prerequisites
 Selenium (Web Scrapping Python Library)
-ChromeDriver (Used for Automated Navigation to URLs, which are Provided by Selenium as Input. Download : https://chromedriver.chromium.org/downloads)
+ChromeDriver (Library for launching Google Chrome on Selenium)
 Pandas (Data Manipulation Library)
 matplotlib(Graph create Library)
 japanize_matplotlib(Japanese support Library for matplotlib)
