@@ -5,6 +5,9 @@ import japanize_matplotlib
 
 import os
 
+# Set the summary csv file path
+summary_csv_path = './covid_summary_data_in_japan.csv'
+
 def graphMaker():
     # Check if there is a file. If not, an exception will occur
     if os.path.isfile(summary_csv_path):
@@ -34,7 +37,4 @@ def graphMaker():
 
 
 if __name__ == "__main__":
-    # Set the summary csv file path
-    summary_csv_path = './covid_summary_data_in_japan.csv'
-
     graphMaker()

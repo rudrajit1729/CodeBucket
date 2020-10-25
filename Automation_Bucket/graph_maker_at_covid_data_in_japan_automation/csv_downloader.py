@@ -1,10 +1,12 @@
 from selenium import webdriver
-from bs4 import BeautifulSoup
 import chromedriver_binary
 
 import os
 import shutil
 import time
+
+ # Set the download folder path
+csv_download_dir = './csv_download'
 
 def csvDownloader():
     driver = webdriver.Chrome()
@@ -50,7 +52,4 @@ def csvDownloader():
 
 
 if __name__ == "__main__":
-    # Set the download folder path
-    csv_download_dir = './csv_download'
-
     csvDownloader()

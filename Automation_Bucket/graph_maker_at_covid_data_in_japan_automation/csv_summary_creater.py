@@ -8,6 +8,11 @@ import csv
 import datetime
 import dateutil.parser
 
+# Set folder path
+csv_download_dir = './csv_download'
+csv_format_dir = './csv_format'
+summary_csv_path = './covid_summary_data_in_japan.csv'
+
 def csvSummaryCreater():
     csvFormater()
 
@@ -89,9 +94,4 @@ def csvFormatCreate(file_path:str, head_flag:bool):
 
 
 if __name__ == "__main__":
-    # Set folder path
-    csv_download_dir = './csv_download'
-    csv_format_dir = './csv_format'
-    summary_csv_path = './covid_summary_data_in_japan.csv'
-
     csvSummaryCreater()
