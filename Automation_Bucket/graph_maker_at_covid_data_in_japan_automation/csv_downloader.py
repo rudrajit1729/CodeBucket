@@ -10,9 +10,6 @@ def csvDownloader():
     driver = webdriver.Chrome()
 
     try:
-        # Set the download folder path
-        csv_download_dir = './csv_download'
-
         # If the previous result remains in the folder Delete the folder
         if os.path.isdir(csv_download_dir):
             shutil.rmtree(csv_download_dir)
@@ -51,5 +48,9 @@ def csvDownloader():
     except:
         raise Exception
 
+
 if __name__ == "__main__":
+    # Set the download folder path
+    csv_download_dir = './csv_download'
+
     csvDownloader()

@@ -1,3 +1,7 @@
+from csv_downloader import csvDownloader
+from csv_summary_creater import csvSummaryCreater
+from graph_maker import graphMaker
+
 def main():
     try:
         csvDownloader()
@@ -5,14 +9,16 @@ def main():
         print('CSV download failure....')
 
     try:
-        csvformater()
+        csvSummaryCreater()
     except:
-        print('CSV format failure....')
+        print('create summary csv failure....')
     
     try:
         graphMaker()
     except:
         print('graph make failure....')
+    
+    print('complete!!')
 
 if __name__ == "__main__":
     main()
