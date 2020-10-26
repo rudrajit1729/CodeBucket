@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recommend_system</title>
+    <style>
+    table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+    h3,h1{
+        color:rgb(0, 102, 255);
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    {% if t =='s' %}
+
+    <div class="shadow p-3 mb-5 bg-white rounded">
+        <h3>Sorry! This book is not in our database.</h3>
+
+        <h3>Please check if you spelled it correct.</h3>
+
+        <h3 >Or try with another book.</h3>
+
+    </div>
+
+
+
+    {% else %}
+
+    <div class="shadow p-3 mb-5 bg-white rounded">
+
+        <h1>"{{book}}" is a great book.</h1>
+
+        <h3>Here are some more like this with their author name and ratings</h3>
+
+    </div>
+    <table class="blueTable">
+      <thead>
+      <tr>
+        <th >book_title</th>
+        <th>Author</th>
+        <th>Rating</th>
+      </tr>
+      </thead>
+      <tbody >
+        <tr >
+            <td >
+                
+                {% for m in s[0]%}
+                <li  style="list-style:none;" ><strong >{{m|capitalize}}</strong></li>
+                {% endfor %}
+           
+            </td>
+          <td >
+                
+            {% for m in s[2]%}
+            <li  style="list-style:none;" ><strong >{{m|capitalize}}</strong></li>
+            {% endfor %}
+       
+        </td>
+        
+    
+            <td >
+                
+                {% for m in s[3]%}
+                <li style="list-style:none;"><strong>{{m|capitalize}}</strong></li>
+                {% endfor %}
+            
+        </td>
+        </tr>
+    
+        
+    </tbody>
+      </table>
+    {% endif %}
+</body>
+</html>
