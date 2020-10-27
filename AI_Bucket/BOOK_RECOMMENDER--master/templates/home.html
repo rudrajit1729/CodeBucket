@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK RECOMMENDER</title>
+</head>
+<body>
+    <br>
+    <br>
+    <h1 align='center' style = 'color: darkslateblue;'>WELCOME TO BOOK RECOMMENDER</h1>
+    <br>
+    <br>
+    <br>
+    <h2 align='center' style="color: #1C6EA4;">ENTER THE BOOOK TITLE</h2>
+    <form action="{{url_for('recommend')}}" align='center'>
+        <input type="text" name="book" placeholder ="book_title" required>
+        <br>
+        <br>
+        <input type="submit" class="btn btn-info" value="Enter">
+     </form>  
+     <p align = ''>
+         THE LIST OF BOOKS :
+        <ol>
+         {%for t in list_book%}
+         <li >{{t|capitalize}}</li>
+         {% endfor %}
+        </ol>
+     </p>
+ </body>
+</html>
