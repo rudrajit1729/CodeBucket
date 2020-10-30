@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="name-contents">
+			<h1>Enter your names:</h1>
+			<label for="p1-input">Player 1:</label>
+			<input type="text" id="p1-input" required>
+			<label for="ai-choice-1">Assign AI?</label>
+			<input type="radio" id="ai-choice-1" name="ai-choice" value="0">
+			<br>
+			<label for="p2-input">Player 2:</label>
+			<input type="text" id="p2-input" required>
+			<label for="ai-choice-2">Assign AI?</label>
+			<input type="radio" id="ai-choice-2" name="ai-choice" value="1">
+			<br>
+			<button type="button" class="name-controls" id="name-btn">Start</button>
+			<button type="button" class="name-controls" id="clr-btn">Clear</button>
+		</div>
+		<div class="game-contents">
+			<!--Turn display, duh-->
+			<span id="turn-dsp">Press the New Game button!</span>
+			<!--buttons for the grid-->
+			<table class="game-board">
+				<tr>
+					<td><button value="00" class="grid-cell"></button></td>
+					<td><button value="01" class="grid-cell"></button></td>
+					<td><button value="02" class="grid-cell"></button></td>
+				</tr>
+				<tr>
+					<td><button value="10" class="grid-cell"></button></td>
+					<td><button value="11" class="grid-cell"></button></td>
+					<td><button value="12" class="grid-cell"></button></td>
+				</tr>
+				<tr>
+					<td><button value="20" class="grid-cell"></button></td>
+					<td><button value="21" class="grid-cell"></button></td>
+					<td><button value="22" class="grid-cell"></button></td>
+				</tr>
+			</table>
+			<!--Reset button-->
+			<button id="rst">New Game</button>
+		</div>
+	</body>
+	<script type="text/javascript" src="main.js"></script>
+</html>

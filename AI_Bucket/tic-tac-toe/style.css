@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+.game-contents{
+	display: none; /* will be changed by the JavaScript */
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin: -170px 0px 0px -70px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-style: hidden;
+}
+
+table td{
+	border: 5px solid black;
+}
+
+.name-contents{
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin: -170px 0px 0px -70px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.name-contents h1{
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+
+.name-contents label{
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.name-contents input{
+	margin-bottom: 10px;
+}
+
+.name-controls{
+	height: 40px;
+	width:70px;
+	font-size:16px;
+	background-color: aliceblue;
+	border-style: solid;
+	border-color: black;
+}
+
+#name-btn{
+	border-width: 2px;
+	margin-left: 40%;
+}
+
+.game-board{
+	height: 200px;
+	width: 200px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin-top: 70px;
+}
+
+.grid-cell{
+	height: 70px;
+	width: 70px;
+	vertical-align: middle;
+	background-color: white;
+	border-style: none;
+	font-size: 30px;
+}
+
+#turn-dsp{
+	position: absolute;
+	width: 200px;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 30px;
+	padding-left: 10px;
+}
+
+#rst{
+	height: 40px;
+	background-color: aliceblue;
+	border: 2px solid black;
+	position: absolute;
+	left: 50%;
+	margin-top: 30px;
+	margin-left: -40px;
+}
