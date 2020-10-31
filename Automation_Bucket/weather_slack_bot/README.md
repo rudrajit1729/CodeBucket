@@ -23,7 +23,7 @@ and then run with command python run.py
 <img src="./image/searchHubot1.png" title="searchHubot1">
 <img src="./image/searchHubot2.png" title="searchHubot2">
 
-**Redirect web site with slack setting page and get API token.**
+**Redirect to slack settings page and get API token.**
 
 <img src="./image/settingHubot1.png" title="settingHubot1">
 <img src="./image/settingHubot2.png" title="settingHubot2">
