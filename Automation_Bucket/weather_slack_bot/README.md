@@ -4,7 +4,7 @@ A slack bot that tells you the weather when you ask the bot "weather ???"
 ## Prerequisites
 * python-dotenv - Library for managing environment variables
 * requests - library for sending http get and post requests (used here to send get request to OpenWeatherMap API)
-* slackbot - Library for managing bot status
+* slackbot - Library for interacting with bots
 
 ## How to run the script
 Python 3.8
