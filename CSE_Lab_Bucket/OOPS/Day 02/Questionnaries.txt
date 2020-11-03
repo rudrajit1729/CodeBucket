@@ -1,0 +1,7 @@
+Questions:
+1. Write a program in JAVA to demonstrate static data member, method and block
+respectively.
+
+2. Justify with a program that a static method can be instantiated or not?
+
+3. Write a program to show the utility of static variable in java to preserve memory management.
