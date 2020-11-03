@@ -1,0 +1,29 @@
+1. Create a class called ‘Bank’ , create a method called display which will display the
+content like Bank_iD, bank_name, IFSC_code. Create an abstract method called
+getROI(), which will return of interest. Extend the class for three different banks SBI,
+HDFC, PNB. The banks are having rate of interest as 5%, 8%, 6% respectively. A
+person wants to do a fix deposit of 500000. Which bank he should choose to deposit
+his F.D.
+
+2. Create a class celled EMP which contains a method getinfo(). The method will accept
+the information such as emp_id, name, and DOJ (date of joining). The class should
+have an abstract method called get_sal() which will calculate the salary of emp.
+Create two class called Manager and Sales . The basic of manager is 65000 and 75%
+other allowance. Sales person has a basic of 30000 and 99% other allowance.
+Calculate and display the alary and info of a manager and a salesman.
+
+3. Can create the object of an abstract class? Justify with a program.
+
+Question
+1. Is it necessary for an abstract class to have an abstract method and vice-versa?
+
+2. Can we make a constructor as abstract?
+
+3. Can an abstract class have main method?
+
+Answers
+Ans 1:  If a class has an abstract method it should be declared abstract, the vice versa is not true, which means an abstract class doesn't need to have an abstract method compulsorily.
+
+Ans 2: No, constructors can’t be abstract as they are called when an object is being created of the class. But we can have normal constructors in abstract class as well, that is allowed.
+
+Ans 3: Yes, you can use the main method in abstract class. The main method is a static method so it is associated with Class, not with object/ instance. The abstract is applicable to the object so there is no problem if it contains the main method.
