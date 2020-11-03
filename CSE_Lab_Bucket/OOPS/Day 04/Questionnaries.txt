@@ -1,0 +1,11 @@
+1. Create a class called ‘Figure’. With a constructor of two parameters called d1 , d2
+which represents the dimension. Create a method area(), in class Figure. Define a
+class “Rectangle” , “Triangle” by extending the class Figure. Each class contains
+the method show(). Override the method for the child classes and display the
+result.
+
+2. WAP to print the details of 10 employees having member getinfo() and
+showinfo(), the methods are responsible for taking input from keyboard and
+displaying the data respectively. The class will contain empid, ename, dob, doj,
+designation. Invoke the method in main (use array of objects to implement the
+class)
