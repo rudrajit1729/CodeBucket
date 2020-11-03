@@ -1,0 +1,19 @@
+1. Create an interface ‘vehicle’ which contains method gear() and
+speed() to increase the speed and break() to decrease the speed.
+Create a method printstatus() which will print speed and gear no.
+Create two class Bike and Car which will print the status for the
+mentioned method.
+
+2. Write a program to demonstrate that the object of an interface
+cannot be created.
+
+Questions
+
+Q1. What is the default nature of member and data declare in an interface
+Ans) All members and data in the interface are declared with the empty body and are public and abstract by default.
+
+Q2. Can we declare an Interface with “abstract” keyword?
+Ans) All methods in an interface are by default abstract. Thus it becomes reduntant to declare an Interface with "abstract" keyword. An interface should only have abstract methods whereas an abstract class can have both abstract and non-abstract methods.
+
+Q3. Can interfaces have constructors?
+Ans) No, interfaces can't have constructors. As interfaces are public and abstract by default any method declaration should be done by the implementing class and not in the interface itself.
