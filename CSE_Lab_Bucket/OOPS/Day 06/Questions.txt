@@ -1,0 +1,19 @@
+1. Write a program in JAVA to demonstrate command line argument passed
+from the command prompt giving n number of input by the user.
+2. Show through program, what will happen if the index of the argument
+passed from the command prompt is different from the argument which is
+assigned to be printed in the program.
+
+Question
+
+1. What is command line argument in JAVA
+2. What is the type of argument accepted in JAVA.
+
+Answers
+
+1. Command Line Argument is a direct information that follows program name on Command Line
+when program is executed. It is directly stored and accessed through the String type array 
+included in main method parameter.
+
+2. Arguments are pass by value in Java. Passing parameters in java invokes 
+pass by value for the method parameters.
