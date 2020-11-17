@@ -1,0 +1,5 @@
+# Questions
+
+1. Write a program to show the utility of toString method.
+
+2. Write a program to show the name , dept, year and st-id of 5 student using array of objects.
