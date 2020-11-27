@@ -21,8 +21,13 @@ echo "6.Exit "
 echo "Enter your choice "
 read ch
     case $ch in
-        1)
-		  cat $db;;
+        1)sort -k1 -t "|" $db > tmp.txt
+          n_lines=$(wc -l tmp.txt | grep -o -P "[0-9]")
+          let n_lines=n_lines-1
+          echo "Roll  |  Name  |  City">$db
+          head -$n_lines tmp.txt >> $db
+          rm tmp.txt		  
+          cat $db;;
         2)echo "Enter Roll "
           read id
             grep -i "$id" $db;;
@@ -38,7 +43,7 @@ read ch
           dbs1=$(grep -v $id $db)
           echo $dbs1 > $db
           echo "Record is deleted"
-          cat db;;
+          cat $db;;
         5)echo "Enter Roll"
           read id
           dbs1=$(grep -v $id $db)
