@@ -1,0 +1,4 @@
+1. Write a program to demonstrate the scenario where exception is not handled.
+
+2. Write program to throw ArrayIndexOutOfBoundsException, handle the exception using try
+catch block.
