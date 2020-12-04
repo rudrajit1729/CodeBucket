@@ -1,0 +1,13 @@
+1. Write a program to handle arithmetic exception and nullpointer exception using try and
+multiple catch blocks.
+
+2. Show through an example by showing unreachable code when an exception is thrown.
+
+3. Write a program in java to show the novelty of finally block when the exception is handled
+or not handled.
+
+Questionnaires
+
+1. What is unreachable code?
+
+2. What is the use of finally block?
