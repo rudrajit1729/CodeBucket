@@ -1,0 +1,6 @@
+Exception Handling
+
+
+1. Write a program in java to throw an exception explicitly . Rethrow the exception and catch it from to the main method. 
+
+2. Write a program to take input from the command line. If the length of the argument given by the user is out of the given range given by the program. It will throw an illegalargumentexception.
