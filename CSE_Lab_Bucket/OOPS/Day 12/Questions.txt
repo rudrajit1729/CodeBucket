@@ -1,0 +1,5 @@
+Custom Exception
+
+1. Write a program in JAVA to handle exceptions by the overridden function throws an exception when that exception is declared or not declared in the parent class. 
+
+2. Create a custom exception and handle the exception in the main method.
