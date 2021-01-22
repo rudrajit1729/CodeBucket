@@ -1,0 +1,2 @@
+Demonstrate garbage collector by calling the method gc() with the help of Nullifying the reference variable 
+and Re-assigning the reference variable, show  it in  your output.
