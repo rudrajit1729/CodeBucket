@@ -1,0 +1,4 @@
+Describe the case where inter thread communication does follow synchronization through we have incorporated
+synchronized word. How you avoid this through wait(), notify() and notifyall().
+
+Demonstrate deadlock through a program.
