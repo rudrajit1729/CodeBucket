@@ -1,0 +1,4 @@
+Questions
+1. Write a shell program to search for all C files in the entire system. No recursive use of commands like find.
+
+2. Write a shell program to take user name from command line and check whether he is a valid user or not. You cannot use who or whoami commands
