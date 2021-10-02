@@ -1,0 +1,6 @@
+seaborn
+requests
+beautifulsoup4
+geopandas
+PrettyTable
+descartes
